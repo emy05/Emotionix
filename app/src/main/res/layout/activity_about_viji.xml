@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutViji"
+    android:background="@drawable/ebg">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="    I am an enthusiastic, self-motivated, reliable, responsible and
+        hard working person. I am a mature team worker and adaptable to all challenging situations.
+         I am able to work well both in a team environment as well as using own initiative.
+     I am able to work well under pressure and adhere to strict deadlines. My area of interests are
+       Machine Learning and IOT. I am currently working on a Project Emotion Detection"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="213dp"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="91dp"
+        app:srcCompat="@drawable/viji" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046900032888",
+    "project_id": "login-register-firebase-2a485",
+    "storage_bucket": "login-register-firebase-2a485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046900032888:android:f7b9f4b39509f71e67748d",
+        "android_client_info": {
+          "package_name": "com.firstapp.emotiondetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046900032888-ca2hvnbia65lo4pjmc1p5vg2vgos8jdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYjiCLPCNRjAslzCB-3VsXY5Qg8oah_7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046900032888-ca2hvnbia65lo4pjmc1p5vg2vgos8jdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".CalActivity"
+    >
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="34sp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:text="Time"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:layout_below="@id/date_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:text="Set Date"
+        android:textSize="34sp"
+        android:layout_below="@id/time_text_view"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:text="Set Time"
+        android:textSize="34sp"
+        android:layout_below="@id/date_button"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/alert_button"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:text="Alert"
+        android:textSize="34sp"
+        android:layout_below="@id/time_button"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

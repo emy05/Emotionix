@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutus"
+        android:title="Track Your Mood"></item>
+
+
+
+    <item android:id="@+id/teamdetails"
+      android:title="Team Details">
+      <menu>
+          <item android:id="@+id/teammembers"
+              android:title="Team Members"></item>
+          <item android:id="@+id/aboutmembers"
+              android:title="About Members"></item>
+      </menu>
+  </item>
+
+
+
+</menu>

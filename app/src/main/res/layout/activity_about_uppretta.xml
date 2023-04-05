@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUppretta"
+    android:background="@drawable/ebg">
+
+    <TextView
+        android:id="@+id/textViewU"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text="I am a hard working, honest individual. I am a good timekeeper, always willing to
+     learn new skills. I am friendly, helpful and polite, have a good sense of humour.
+     I am able to work independently in busy environments and also within a team setting.
+    I am outgoing and tactful, and able to listen effectively when solving problems.
+     Currently I am working on a Project focused on Emotion Detection  "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageViewU"
+        android:layout_width="213dp"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="83dp"
+        app:srcCompat="@drawable/uppu" />
+
+</RelativeLayout>

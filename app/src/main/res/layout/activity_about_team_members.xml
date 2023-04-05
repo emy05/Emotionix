@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AboutTeamMembers"
+    android:background="@drawable/ebg">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text=" I am an highly motivated and hardworking individual
+currently pursuing B.Tech Information Technology at Thiagarajar College of Engineering, Madurai.
+ I am a passionate learner with a strong desire to excel in the field of software engineering.
+ With a solid foundation in various technical courses such as DBMS, OS, CN, OOPS, DSA, and
+        Web Development,I have a keen interest in Machine Learning, Data Structures and Algorithms,
+ and Java Programming.
+        I am actively involved in a project focused on
+  Emotion Detection, which involves creating a model capable of recognizing people's emotions.
+       "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="213dp"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="86dp"
+        app:srcCompat="@drawable/emy" />
+</RelativeLayout>

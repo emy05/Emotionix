@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectDesc"
+    android:background="@drawable/projectdesc">
+<TextView
+android:id="@+id/textView12"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_marginStart="0dp"
+android:gravity="center"
+android:text="
+Social Virtual Reality (VR) is a new emerging digital platform that offers a virtual space where people with their avatars can interact with others. But how we add an emotional texture to VR is the main problem to be solved.
+In virtual reality emotional information will be more helpful to create the environment more interactive as per the users state of mind.
+It’s incredibly important, particularly within a VR setting - that people feel connected to the experience on an instinctual level.
+The primary goal of the research to find out the algorithm that can predict the emotions accurately or near to the induced emotions which are collected or acquired in a real time with VR.
+Once the data is analyzed and processed, the system can take appropriate actions, that would be helpful in a case when negative emotions are detected.
+       "
+android:textAlignment="center"
+android:textAppearance="@style/TextAppearance.AppCompat.Large"
+tools:layout_editor_absoluteX="57dp"
+tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="#FBF4C4"
+        android:text="About Our Project "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="ABOUT OUR PROJECT" />
+
+</RelativeLayout>

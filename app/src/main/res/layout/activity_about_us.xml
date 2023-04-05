@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@drawable/about">
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text="
+We Emy Premlin, Viji, Uppretta, Nagasree are proposing a solution that uses a integration of passive sensors to capture physiological changes and estimate our emotions through a wearable band.
+Our device helps to increase the interaction activity between the human and device so that overall the gaming experience in Vr can be increased to the further extent.
+We built support vector machine (SVM) classifiers with the radial basis function (RBF) kernel for arousal and valence recognition, based on physiological signals,to classify positive
+and negative emotions
+       "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="ABOUT US"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        tools:text="ABOUT US" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EmotionDetection</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="more_about_us">MORE ABOUT US</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="enter_your_details">Enter Details</string>
+    <string name="close">CLOSE</string>
+    <string name="calender">CALENDER</string>
+</resources>

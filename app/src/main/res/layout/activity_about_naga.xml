@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutNaga"
+    android:background="@drawable/ebg">
+    <TextView
+        android:id="@+id/textViewN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text="I am a dedicated, organized and methodical individual. I have good interpersonal skills, am an excellent team worker and am keen and very willing
+    to learn and develop new skills. I am reliable and dependable and often seek new responsibilities
+     within a wide range of employment areas. I have an active and dynamic approach to work and getting
+  things done.I am determined and decisive. I identify and develop opportunities.
+       "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageViewN"
+        android:layout_width="213dp"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="88dp"
+        app:srcCompat="@drawable/naga" />
+
+</RelativeLayout>
