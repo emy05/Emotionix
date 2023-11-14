@@ -11,5 +11,5 @@ Emotionix includes the following features:
 •	CRUD page with options for creating, editing, and deleting entries, using SQLite to store data locally on the device.
 •	Mood tracker that allows users to enter a date and write how they feel on that day, along with an optional photo or image.
 
-Project Demo : https://youtu.be/fE8ZT2pip2E
+
 
